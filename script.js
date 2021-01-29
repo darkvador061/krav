@@ -1,5 +1,0 @@
-// TYPED
-var typed = new Typed('.typed', {
-    strings: ["LE KRAV MAGA signifie Combat Rapproché (en Hébreu ). C’ est une méthode moderne de Self – Défense qui a été créée dans les années 40 par son fondateur IMI LICHTENFELD (1910/1998) Son génie fut de créer une méthode simple, rapide à apprendre car elle est basée sur les réflexes et redoutables en situation réelle. Pour rester efficient même dans une situation de stress intense , le Krav Maga enseigne des principes d’efficacité basés sur l’acquisition de  réflexes et une simplicité d’apprentissage.La finalité du Krav Maga est plutôt de savoir s’adapter, de comprendre la logique de la pratique afin de pouvoir augmenter ses chances de survie en cas de danger. Le KRAV MAGA repose sur quatre notions essentielles : SIMPLICITE / RAPIDITE / EFFICACITE / MAITRISE DE SOI"],
-    typeSpeed: 20,
-  });

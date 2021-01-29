@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Josefin+Sans:100|Rambla&display=swap');
+
+body{
+    padding: 0%;
+    margin: 0%;
+    
+}
+.navbar-nav{
+    width: 80% !important;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-align: center;
+}
+
+/* ----------------header---------------------------------*/
+
+#line{
+    height: 1px;
+    background-color: #b3aca7;
+    width: 25%;
+    margin: 0 auto;
+}
+h1, h2{
+    text-align: center;
+}
+h1{
+    font-family: 'Audiowide', sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 1px #283655;
+}
+h1.aos-init {
+    margin-top: 5%;
+}
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4.3em;
+    text-transform: uppercase;
+    font-weight: bold !important;
+}
+
+
+/*------------------ Acceuil---------------------------*/
+
+#Acceuil{
+    margin-top: 5%;
+    text-align: center;
+    height: 60vh;
+    background: linear-gradient(#bbbd, #bbbd), url(./assets/our-history-test.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    
+}
+#Acceuil, p{
+    font-family: 'Rambla', sans-serif;
+    font-size: 1.5rem;
+    padding-top: 8%;
+    font-weight: bold;
+}
+
+
+
+
+
+/*---------------media queries-----------------------*/
+@media screen and (max-width: 1440px){
+    #Acceuil p{
+        font-size: 1.3rem;
+    }
+}
+@media screen and (max-width: 520px){
+    #Acceuil p{
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width: px){
+    #Acceuil p{
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width: 375px){
+    #Acceuil p{
+        font-size: 1rem;
+    }
+}

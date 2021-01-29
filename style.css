@@ -90,6 +90,9 @@ h2{
     }
 }
 @media screen and (max-width: 320px){
+    #Acceuil{
+        height: 60vh;
+    }
     #Acceuil p{
         font-size: 1rem;
         padding-top: 0%;
